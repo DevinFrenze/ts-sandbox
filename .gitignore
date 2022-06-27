@@ -1,0 +1,14 @@
+# npm dependencies
+/node_modules
+
+# debug log
+npm-debug.log*
+
+# build output
+/build
+
+# vim files
+*.swp
+
+# macOs file
+.DS_Store

@@ -1,11 +1,18 @@
 {
-  "name": "sugarmate-interview",
+  "name": "ts sandbox",
   "version": "1.0.0",
-  "description": "temporary project for sugarmate interview",
+  "description": "basic setup for building and executing typescript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "execute": "node build/index.js"
   },
   "author": "Devin Frenze",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.3",
+    "@types/node": "^18.0.0",
+    "typescript": "^4.7.4"
+  }
 }
